@@ -1,0 +1,15 @@
+    assemble:
+    - from: vite-build
+      into: static
+liferay-custom-card-slider:
+    cssURLs:
+        - style.css
+    friendlyURLMapping: liferay-custom-card-slider
+    htmlElementName: liferay-custom-card-slider
+    instanceable: false
+    name: liferay custom card slider
+    portletCategoryName: category.client-extensions
+    type: customElement
+    urls:
+        - assets/*.js
+    useESM: true
